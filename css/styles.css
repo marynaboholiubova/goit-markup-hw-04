@@ -138,15 +138,18 @@ background-color: #2e2f42;
 max-width: 1440px;
 padding-top: 188px;
 padding-bottom: 188px;
+
+}
+.hero-container{
+background-image: url(./images/people-office.jpeg);
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
- rgba(46, 47, 66, 0.7)), url(../images/people-office.jpeg);
+ rgba(46, 47, 66, 0.7)), url(./images/people-office.jpeg);
 background-repeat: no-repeat;
 background-position: center; 
 background-size: cover;
 }
-.hero-container{
-  
-}
+
+
 .hero-title {
 font-size: 56px;
 line-height: 1.07;
